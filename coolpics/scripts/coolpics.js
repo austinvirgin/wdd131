@@ -44,7 +44,7 @@ function viewerTemplate(pic, alt) {
     document.querySelector(".close-viewer").addEventListener('click', closeViewer);
 
 }
-document.querySelector('.click').addEventListener('click', viewHandler);
+document.querySelector('.gallery').addEventListener('click', viewHandler);
 
 function closeViewer() {
     document.querySelector('.viewer').remove();
