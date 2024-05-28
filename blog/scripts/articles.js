@@ -25,3 +25,17 @@ const articles = [
       stars: "⭐⭐⭐⭐"
     }
   ];
+
+  let num = 1;
+  articles.forEach(article => {
+    document.querySelector("#book" + num + "title").textContent = article.title;
+    document.querySelector("#book" + num + "date").textContent = article.date;
+    document.querySelector("#book" + num + "age").textContent = article.ages;
+    document.querySelector("#book" + num + "genre").textContent = article.genre;
+    document.querySelector("#book" + num + "rating").textContent = article.stars;
+    document.querySelector("#book" + num + "img").src = article.imgSrc;
+    document.querySelector("#book" + num + "img").alt = article.imgAlt;
+    document.querySelector("#book" + num + "description").textContent = article.description;
+    num ++;
+  });
+  
