@@ -1,6 +1,7 @@
+
 articles.forEach(article => {
   const articlebook = document.createElement('section');
-  articlebook.id = 'book' + article.id;
+  articlebook.classList.add('book');
 
   const articleEl = document.createElement('section');
   articleEl.classList.add('book_rating');
@@ -41,7 +42,7 @@ articles.forEach(article => {
   bookdescription.innerHTML = article.description;
   const booklink = document.createElement('a');
   booklink.href = "#";
-  booklink.innerHTML = "Read More...";
+  booklink.innerHTML = " Read More...";
 
 
   document.querySelector('#maincontent').appendChild(articlebook);
