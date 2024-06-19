@@ -163,3 +163,11 @@
   section {
     margin-top: 50px;
   }
+
+  @media screen and (min-width: 700px) {
+    #participants {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }   
+  }
