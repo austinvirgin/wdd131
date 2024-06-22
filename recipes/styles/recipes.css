@@ -131,13 +131,9 @@ body {
     }
 
     #apple-crisp-img {
-        width: 50%;
-        height: 100%;
-        margin: 10px;
-    }
-
-    .rating {
-        margin-bottom: 10px;
+        width: 55%;
+        max-height: 320px;
+        margin: auto 10px;
     }
 }
 
