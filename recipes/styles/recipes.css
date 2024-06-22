@@ -135,6 +135,14 @@ body {
         max-height: 320px;
         margin: auto 10px;
     }
+
+    #header {
+        margin: 10px auto;
+    }
+
+    h2 {
+        font-size: large;
+    }
 }
 
 @media screen and (min-width: 960px) {
