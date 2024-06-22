@@ -65,7 +65,7 @@ img {
 }
 
 h2 {
-    color: #0a4d74;
+    color: var(--primary-color);
     margin-left: 15px;
     margin-bottom: 0;
     font-family: var(--secondary-font);
