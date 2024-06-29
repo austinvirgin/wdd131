@@ -39,7 +39,7 @@ img {
     max-width: 100%;
 }
 
-#apple-crisp {
+#recipe {
     border: 1px solid black;
     margin-top: 20px;
     margin: 25px auto;
@@ -47,7 +47,7 @@ img {
     border-radius: 2%;
 }
 
-#apple-crisp-img {
+#recipes img {
     margin: 10px;
     width: 90%;
     display: grid;
@@ -121,7 +121,7 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-    #apple-crisp {
+    #recipe {
         display: flex;
         flex-direction: row;
     }
@@ -130,7 +130,7 @@ body {
         display: block;
     }
 
-    #apple-crisp-img {
+    #recipes img {
         width: 55%;
         max-height: 320px;
         margin: auto 10px;
