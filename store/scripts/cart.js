@@ -29,8 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
 function RenderSwimsuit(swimsuit) {
     return `
         <div class="cart-item">
-            <h5 id="swimsuit-name">${swimsuit.name} - ${swimsuit.quantity} quantity</h5>
-            <p>$${swimsuit.price}</p>
+            <h5 class="swimsuit">${swimsuit.name} - ${swimsuit.quantity} quantity</h5>
+            <p class="price">$${swimsuit.price}</p>
         </div>
     `;
 }
